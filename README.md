@@ -1,19 +1,17 @@
-# React + Vite
+| Nombre | Documento | Ficha | Correo | Telefono  | userGit | diseño | 
+|---:|-----------|-----------------|--------------|
+| Juan Manauel Valencia  | 1031941416 | 3410947 | juanmanuelvalenciamachado14@gmail.com | 3218096056 | juanmanuelv17 | brutalismo.html | 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Presentacion* 
+- En este proyecto voy a hacer una migracion de html a react, usando las dependencias de tailwind, DOM, dividir por componentes principales y reutilizar cada etiqueta de html. import { Link } from "react-router-dom";
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ <div>
+        <nav class="hidden lg:flex items-center gap-1 font-mono text-xs font-bold">
+            <Link to="#inicio" class="px-2.5 py-1 border-2 border-[#FFE600] hover:bg-[#FFE600] hover:text-black transition-colors">[01] INICIO</Link>
+            <Link to="#principios" class="px-2.5 py-1 border-2 border-[#FFE600] hover:bg-[#FFE600] hover:text-black transition-colors">[02] CÓDIGO</Link>
+            <Link to="#obras" class="px-2.5 py-1 border-2 border-[#FFE600] hover:bg-[#FFE600] hover:text-black transition-colors">[03] OBRAS</Link>
+            <Link to="#proceso" class="px-2.5 py-1 border-2 border-[#FFE600] hover:bg-[#FFE600] hover:text-black transition-colors">[04] FASES</Link>
+            <Link to="#estudio" class="px-2.5 py-1 border-2 border-[#FFE600] hover:bg-[#FFE600] hover:text-black transition-colors">[05] DATOS</Link>
+            <Link to="#contacto" class="px-2.5 py-1 border-2 border-[#FFE600] hover:bg-[#FFE600] hover:text-black transition-colors">[06] BRIEF</Link>
+        </nav>
+    </div>
